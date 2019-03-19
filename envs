@@ -1,0 +1,28 @@
+CUDA以及CUDNN的选择与安装，系统变量设置https://blog.csdn.net/bryant_meng/article/details/78559907
+CUDA8.O  https://developer.nvidia.com/cuda-80-ga2-download-archive
+CUDNN6.0  需要注册
+
+安装Anaconda
+
+开始envs设置：
+打开Anaconda Prompt
+conda create --name python35 python=3.5 （创建以python3.5为基础的环境）
+activate python35  （激活该环境）
+pip install tensorflow-gpu==1.4.0  （安装tensorflow的GPU版本，1.4版本）
+python  （进入python环境）
+import tensorflow  （测试tensorflow是否正确安装）
+exit（）  （退出python环境）
+pip install numpy(scikit_learn，scipy，matplotlib，pandas)  （安装一些相关库文件）
+conda install mingw libpython  （keras相关）
+g++ --version  （检验mingw是否安装正确，一般会出现在Anaconda文件夹下）
+###以下不一定需要，keras可以tensorflow为底层使用###
+pip install theano  （theano是keras的可用底层之一）
+conda install mkl
+conda install mkl-service
+conda install blas
+###############
+pip install keras  （安装keras）
+pip install Pillow  （keras相关）
+python  （进入python环境）
+import keras  （测试keras是否正确安装）
+环境安装完成

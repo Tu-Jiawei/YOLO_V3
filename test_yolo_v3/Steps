@@ -1,0 +1,16 @@
+https://github.com/qqwweee/keras-yolo3
+这是一个以tensorflow为底层的yolo_v3keras实现程序
+下载解压后用Pycharm打开解压后的文件夹
+在终端Terminal下进行操作
+！！！！
+Pycharm的终端可以等同于Anaconda Prompt指令框
+！！！！
+激活你的正确环境，我的是activate python35
+python convert.py yolov3.cfg yolov3.weights model_data/yolo.h5（转换weights格式为h5格式）
+成功运行后会在此时会在model_data文件夹下出现相应的H5文件
+在keras-yolo3-master放入几张合适的照片，需要符合COCO的数据类型
+同样在正确环境下，Terminal输入python yolo_video.py --image
+此时输入照片，如Input image filename:dog.jpg即可
+
+
+python yolo_video.py input/mk.mp4 output 

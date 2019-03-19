@@ -4,6 +4,8 @@ CUDNN6.0  需要注册
 
 安装Anaconda
 
+https://blog.csdn.net/xiaoxiaogh/article/details/79188446
+https://blog.csdn.net/m0_38058163/article/details/80657447
 开始envs设置：
 打开Anaconda Prompt
 conda create --name python35 python=3.5 （创建以python3.5为基础的环境）

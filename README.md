@@ -10,4 +10,4 @@ coco_classes:包含coco数据集内的80个对象名称，对自己的数据集�
 
 voc_classes:包含部分coco数据集内的对象，对自己的数据集进行训练时需要修改，格式参考本版本
 
-yolo_anchors:是yolo作者经大量测试得到的9个anchors，我理解为框，在输入数据库内的图片经预处理转换为yolo所需格式后（一般为416
+yolo_anchors:是yolo作者经大量测试得到的9个anchors，我理解为框，在输入数据库内的图片经预处理转换为yolo所需格式后（一般为416*416），此时如anchor（10,13）

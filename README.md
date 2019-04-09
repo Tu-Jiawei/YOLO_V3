@@ -3,6 +3,7 @@
 关于yolo环境的建立
 关于yolo的运行
 关于通过yolo训练自己的模型
+weights文件是caffe常用的模型参数存储文件，在tf环境下使用时需要先转换为.H5格式的文件
 
 ![yolov3主体框架](https://github.com/Tu-Jiawei/YOLO_V3/blob/master/test_yolo_v3/2018100917221176.jpg)
 

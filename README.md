@@ -19,3 +19,5 @@ yolo_anchors.txt:是yolo作者经大量测试得到的9个anchors，我理解为
 convert.py:实现caffe的Weights格式到tf的.H5格式的转换
 
 my_yolo.cfg:yolov3的整个网络结构，可参考上图一起查看
+
+model.py:包含了yolov3的整个模型建立，损失函数设置，优化策略，到最后的whxy等值的输出
